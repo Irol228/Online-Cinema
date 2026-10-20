@@ -11,6 +11,10 @@ schemeSvg.addEventListener('click', (event) => {
     let totalSeats = schemeSvg.querySelectorAll('.active').length;
     totalPrice = totalSeats * cost;
     totalPriceTag.textContent = totalPrice;
+    console.log(schemeSvg.querySelectorAll('.active').length);
   }
 });
 
+menuButton.addEventListener('click', () => {
+  menu.classList.toggle('is-open');
+});

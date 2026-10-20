@@ -9,6 +9,8 @@ body {
 }
 
 .header {
+  background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), 
+    url("../img/bg.jpg") no-repeat center top / cover;
   padding-bottom: 60px;
 }
 
@@ -285,42 +287,4 @@ option {
   line-height: 21px;
   padding: 24px 52px;
   text-decoration: none;
-}
-
-@media (max-width: 1200px) {
-  .container {
-    max-width: 960px;
-  }
-
-  .select-cinema {
-    width: 100%;
-  }
-}
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 750px;
-  }
-
-  .session {
-    flex-wrap: wrap;
-  }
-
-  .session-date {
-    flex-basis: 70%;
-    margin-bottom: 40px;
-  }
-
-  .session-time {
-    order: 2;
-    margin-bottom: 40px;
-  }
-
-  .session-cinema {
-    order: 3;
-  }
-
-  .menu-item {
-    margin-right: 20px;
-  }
 }
